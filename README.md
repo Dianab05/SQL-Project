@@ -1,14 +1,16 @@
-<h1>Database Project for Restful-Booker</h1>
+<h1>Database Project for Booking</h1>
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
-Application under test: **Restful-Booker**
+Application under test: **Booking**
 
 Tools used: **MySQL Workbench**
 
 **Database description:** <br>
 
-The purpose of the SQL database for the Restful-Booker application is to store and manage the necessary information for travel reservations, including details about clients, properties and bookings. The database will ensure data integrity and accessibility, facilitating the operations of storing, querying, updating, and deleting relevant data for the efficient functioning of the application.
+In this project, I created a SQL database inspired from the Booking application. 
+The purpose of the database is to store and manage the necessary information for travel reservations, including details about users, properties, bookings, and reviews. 
+The database will ensure data integrity and accessibility, facilitating the operations of storing, querying, updating, and deleting relevant data for the efficient functioning of the application.
 
 **General Information Stored** <br>
 
