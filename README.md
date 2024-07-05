@@ -1,15 +1,34 @@
-# SQL-Project
-Manual testing projects 
-
-<h1>Database Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>Database Project for Restful-Booker</h1>
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: **Restful-Booker**
 
-Tools used: MySQL Workbench
+Tools used: **MySQL Workbench**
 
-Database description: **Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere**
+**Database description:** <br>
+
+The purpose of the SQL database for the Restful-Booker application is to store and manage the necessary information for travel reservations, including details about clients, properties and bookings. The database will ensure data integrity and accessibility, facilitating the operations of storing, querying, updating, and deleting relevant data for the efficient functioning of the application.
+
+**General Information Stored** <br>
+
+**Bookings:** <br> 
+Information about bookings made by clients.<br>
+Attributes: Booking ID, client ID, room ID, check-in date, check-out date, deposit paid (true/false), aditional needs.<br>
+
+**Clients:** <br>
+Information about clients, including authentication details and profiles. <br>
+Attributes: Client ID, first name, last name, birth date, address. <br>
+
+**Properties:**  <br>
+Details about properties available for booking. <br>
+Attributes: Room ID, room type, availability. <br>
+
+**Additional needs:**  <br>
+Information about the additional needs of the clients. <br>
+Attributes: Additional need ID, additional need description. <br>
+
+**Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere**
 
 <ol>
 <li>Database Schema </li>
