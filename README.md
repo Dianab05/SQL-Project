@@ -8,49 +8,49 @@ Tools used: **MySQL Workbench**
 
 **Database description:** <br>
 
-In this project, I created a SQL database inspired from the Booking application. 
-The purpose of the database is to store and manage the necessary information for travel reservations, including details about users, properties, bookings, and reviews. 
-The database will ensure data integrity and accessibility, facilitating the operations of storing, querying, updating, and deleting relevant data for the efficient functioning of the application.
+In this project, I created a SQL database inspired from the Booking application. <br> 
+The purpose of the database is to store and manage the necessary information for travel reservations, including details about users, properties, bookings, and reviews. <br> 
+The database will ensure data integrity and accessibility, facilitating the operations of storing, querying, updating, and deleting relevant data for the efficient functioning of the application. <br>
 
 **General Information Stored** <br>
 
-**Bookings:** <br> 
-Information about bookings made by clients.<br>
-Attributes: Booking ID, client ID, room ID, check-in date, check-out date, deposit paid (true/false), aditional needs.<br>
+**Bookings** <br>
+Information about bookings, such as user ID, property ID, check-in and check-out dates, and booking status (pending, confirmed, canceled). <br>
 
-**Clients:** <br>
-Information about clients, including authentication details and profiles. <br>
-Attributes: Client ID, first name, last name, birth date, address. <br>
+**Users** <br>
+Personal information of users, such as first name, last name, birth date, email, and role (client or owner).
 
-**Properties:**  <br>
-Details about properties available for booking. <br>
-Attributes: Room ID, room type, availability. <br>
+**Properties** <br>
+Details about properties, including property name, description, address, city, country, price per night, capacity, and availability. <br>
 
-**Additional needs:**  <br>
-Information about the additional needs of the clients. <br>
-Attributes: Additional need ID, additional need description. <br>
+**Payments** <br> 
+Payment details, including booking ID, payment method (credit card, cash), amount paid, and payment date. <br>
 
-**Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere**
+**Reviews** <br>
+User evaluations and comments about properties, including rating, description, and review date. <br>
 
 <ol>
-<li>Database Schema </li>
-<br>
+<h4> <li> Database Schema </li> </h4>
+
 You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them.
 
+![Booking reverse engineer](https://github.com/Dianab05/SQL-Project/assets/166596469/488e1321-ad66-430e-b44c-06879b8ec41a)
+
+
 The tables are connected in the following way:
-
 <ul>
-  <li> **nume tabela 1**  is connected with **nume tabela 2** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 3**  is connected with **nume tabela 4** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 5**  is connected with **nume tabela 6** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  ...........
-  <li> **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-</ul><br>
+  
+**<li>Users** is connected with **Bookings** through a **one-to-many** relationship which was implemented through Users.user_id as a **primary key** and Bookings.user_id as a **foreign key**.</li>
+**<li>Properties** is connected with **Bookings** through a **one-to-many** relationship which was implemented through Properties.property_id as a **primary key** and Bookings.property_id as a **foreign key**.</li>
+**<li>Bookings** is connected with **Payments** through a **one-to-one** relationship which was implemented through Bookings.booking_id as a **primary key** and Payments.booking_id as a **foreign key**.</li>
+**<li>Properties** is connected with **Reviews** through a **one-to-many** relationship which was implemented through Properties.property_id as a **primary key** and Reviews.property_id as a **foreign key**.</li>
+**<li> Users** is connected with **Reviews** through a **one-to-many** relationship which was implemented through Users.user_id as a **primary key** and Reviews.user_id as a **foreign key**.</li>
+</ul>
 
-<li>Database Queries</li><br>
+<h4><li>Database Queries</li></h4>
 
-<ol type="a">
-  <li>DDL (Data Definition Language)</li>
+<ol type="A">
+<h5><li>DDL (Data Definition Language)</li></h5>
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
