@@ -133,18 +133,42 @@ The following instructions were written in the scope of CREATING the structure o
 ![update5](https://github.com/Dianab05/SQL-Project/assets/166596469/27345264-ff64-49a3-b2ef-603fbaf86380)
 
 
-
-  
-  **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
-
-
  <h4> <li>DQL (Data Query Language)</li> </h4>
  
-After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
-
-**Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
-
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
+<ul>
+  
+**<li>WHERE** clause </li>
+  
+![where](https://github.com/Dianab05/SQL-Project/assets/166596469/56faea5b-81b1-4517-ac01-dc4efe343e25)
+![where2](https://github.com/Dianab05/SQL-Project/assets/166596469/7dde252d-a59d-48b2-afe1-6b87e8b8bf7c)
+
+**<li>WHERE** with **AND** </li>
+
+![where and](https://github.com/Dianab05/SQL-Project/assets/166596469/41e41332-7183-4081-92d5-ca670ceaa032)
+
+**<li>WHERE** with **OR** </li>
+
+![where or](https://github.com/Dianab05/SQL-Project/assets/166596469/d50ae76d-7367-4a21-9a3b-34349f084abe)
+
+**<li>WHERE** with **NOT** </li>
+
+![where not ](https://github.com/Dianab05/SQL-Project/assets/166596469/3fc74070-d4e1-4160-9198-2676a2ce9967)
+
+**<li>WHERE** with **LIKE** </li>
+
+![where like](https://github.com/Dianab05/SQL-Project/assets/166596469/a2a9c535-9ea1-4089-87bc-f5629dbc0b0e)
+
+**<li>REGEXP** </li>
+
+![regexp](https://github.com/Dianab05/SQL-Project/assets/166596469/247b08f7-cca8-48dd-ad3e-a839b6984bb0)
+
+**<li>INNER JOIN** </li>
+
+
+  
+</ul>
+
 
 **Inserati aici toate instructiunile de SELECT pe care le-ati scris folosind filtrarile necesare astfel incat sa extrageti doar datele de care aveti nevoie**
 **Incercati sa acoperiti urmatoarele:**<br>
@@ -161,6 +185,11 @@ In order to simulate various scenarios that might happen in real life I created 
 **- group by**<br>
 **- having**<br>
 **- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**<br>
+
+
+After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
+
+**Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
 
 </ol>
 
