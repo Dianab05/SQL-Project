@@ -49,25 +49,59 @@ The tables are connected in the following way:
 
 <h4><li>Database Queries</li></h4>
 
-<ol type="A">
-<h5><li>DDL (Data Definition Language)</li></h5>
-
-  The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
-
-  **Inserati aici toate instructiunile de CREATE pe care le-ati scris, atat create database cat si create table**
-
-  After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
-
-  **Inserati aici toate instructiunile de ALTER pe care le-ati scris. Incercati sa includeti instructiuni cat mai variate cum ar fi:**
- **- schimbare nume tabela**
- **- adaugare sau stergere coloana**
- **- redenumire coloana**
- **- adaugare proprietati coloana (ex: adaugare auto-increment)**
- **- modificare proprietati coloana (ex: modificare tip de data, modificare pozitie coloana etc)**
- **- adaugare cheie primara sau secundara (daca nu a fost deja adaugata la crearea tabelei)**
- 
+<ol type="I">
   
-  <li>DML (Data Manipulation Language)</li>
+<h4><li>DDL (Data Definition Language)</li></h4>
+
+The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS). <br>
+
+![create11](https://github.com/Dianab05/SQL-Project/assets/166596469/998b1ce1-b2cc-4ff6-ac0c-8204e53e57aa)
+
+![create1](https://github.com/Dianab05/SQL-Project/assets/166596469/f6d8e44f-9fb6-4520-a509-fb177e4174e1)
+
+ ![create2](https://github.com/Dianab05/SQL-Project/assets/166596469/c6ebb053-bbf8-4dc5-8071-34515bc1f08e)
+
+ ![create 3](https://github.com/Dianab05/SQL-Project/assets/166596469/c8e9853d-957f-4de5-ab71-ba8187936870)
+
+![create4](https://github.com/Dianab05/SQL-Project/assets/166596469/c9f582da-1cbc-4830-a57f-00b6415f586e)
+
+![create5](https://github.com/Dianab05/SQL-Project/assets/166596469/3d57ae8c-fd8a-4e4d-add2-3cb00117b901)
+
+
+
+  After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below: 
+  <ul>
+<li>Changing the Table Name </li>
+
+![alter11](https://github.com/Dianab05/SQL-Project/assets/166596469/a6297c80-3dda-41d5-9152-b3b024f6e36a)
+
+<li>Adding or Dropping Columns </li>
+
+![alter3](https://github.com/Dianab05/SQL-Project/assets/166596469/be4ba0f5-573b-442d-9dea-eac2a423e688)
+
+<li>Renaming Columns </li>
+
+![alter12](https://github.com/Dianab05/SQL-Project/assets/166596469/9abe73a4-f4ca-4540-96bb-d584502d1deb)
+
+<li>Adding Column Properties </li>
+
+![alter4](https://github.com/Dianab05/SQL-Project/assets/166596469/df7b793c-0591-4e43-b6a3-ee6a83cfe80c)
+
+<li>Modifying Column Properties </li>
+
+![alter5](https://github.com/Dianab05/SQL-Project/assets/166596469/8ec10c1c-2e29-46f4-8095-c1226d8fc48e)
+
+<li>Adding Primary or Foreign Keys </li>
+
+![alter6](https://github.com/Dianab05/SQL-Project/assets/166596469/75abe2e5-b9e3-47e0-928f-ef2e5bdf9768)
+
+
+![alter2](https://github.com/Dianab05/SQL-Project/assets/166596469/2365df44-1e33-4fbb-b36f-094aa3bf2951)
+
+</ul>
+
+
+<h4> <li>DML (Data Manipulation Language)</li> </h4>
 
   In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. 
   In the testing process, this necessary data is identified in the Test Design phase and created in the Test Implementation phase. 
@@ -81,8 +115,8 @@ The tables are connected in the following way:
   **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
 
 
-  <li>DQL (Data Query Language)</li>
-
+ <h4> <li>DQL (Data Query Language)</li> </h4>
+ 
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
 **Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
