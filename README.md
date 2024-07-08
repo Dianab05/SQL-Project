@@ -106,12 +106,35 @@ The following instructions were written in the scope of CREATING the structure o
   In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. 
   In the testing process, this necessary data is identified in the Test Design phase and created in the Test Implementation phase. 
 
-  Below you can find all the insert instructions that were created in the scope of this project:
+  Below you can find some of the **INSERT** instructions that were created in the scope of this project:
 
-  **Inserati aici toate instructiunile de INSERT pe care le-ati scris. Incercati sa folositi atat insert pe toate coloanele (fara sa precizati pe ce coloane se face insert) cat si insert pe cateva coloane (care necesita mentionarea explicita a coloanelor pe care se face insert). De asemenea, incercati sa acoperiti situatia in care inserati mai multe randuri in acelasi timp**
+![insert1](https://github.com/Dianab05/SQL-Project/assets/166596469/e1fcc2e2-b82a-403e-baff-d9520e53bbc7)
 
-  After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
+![insert 2](https://github.com/Dianab05/SQL-Project/assets/166596469/6e545269-16d3-4942-813d-322d57e11769)
 
+![insert22](https://github.com/Dianab05/SQL-Project/assets/166596469/bd649fee-27c8-4da8-a15e-a697e3e50c60)
+
+![insert3](https://github.com/Dianab05/SQL-Project/assets/166596469/7a8345ec-9fb0-4d1f-ad6a-069c599f101d)
+
+![insert4](https://github.com/Dianab05/SQL-Project/assets/166596469/9a12006f-4375-4915-b258-87adca7ade04)
+
+
+  After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way. 
+  Below you can find some of the **UPDATE** instructions that were created
+  
+![update1](https://github.com/Dianab05/SQL-Project/assets/166596469/1b2bb152-0de9-49f5-8c53-20305626163c)
+
+![update2](https://github.com/Dianab05/SQL-Project/assets/166596469/12250f25-261f-46c3-8b41-665727a78fb2)
+
+![update3](https://github.com/Dianab05/SQL-Project/assets/166596469/bdb15184-4733-454a-9141-9fc08fafd49a)
+
+![update4](https://github.com/Dianab05/SQL-Project/assets/166596469/e46d6b13-1666-4c7a-aa2b-7e8cfb5d034f)
+
+![update5](https://github.com/Dianab05/SQL-Project/assets/166596469/27345264-ff64-49a3-b2ef-603fbaf86380)
+
+
+
+  
   **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
 
 
