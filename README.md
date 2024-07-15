@@ -210,32 +210,33 @@ In order to simulate various scenarios that might happen in real life I created 
  
 </ul>
 
-
-**Inserati aici toate instructiunile de SELECT pe care le-ati scris folosind filtrarile necesare astfel incat sa extrageti doar datele de care aveti nevoie**
-**Incercati sa acoperiti urmatoarele:**<br>
-**- where**<br>
-**- AND**<br>
-**- OR**<br>
-**- NOT**<br>
-**- like**<br>
-**- inner join**<br>
-**- left join**<br>
-**- OPTIONAL: right join**<br>
-**- OPTIONAL: cross join**<br>
-**- functii agregate**<br>
-**- group by**<br>
-**- having**<br>
-**- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**<br>
-
-
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
-**Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
+![DELETE1](https://github.com/user-attachments/assets/aca29d40-d6c1-4e53-8440-c612886e4364)
+
+![DELETE2](https://github.com/user-attachments/assets/d5759119-cf23-4ab3-bb9a-87e48b1af0aa)
+
+![DELETE3](https://github.com/user-attachments/assets/4ff223e5-f560-4fa9-b128-cd660c6f5fe1)
+
 
 </ol>
 
-<li>Conclusions</li>
+<H4><li>Conclusions</li></H4>
 
-**Inserati aici o concluzie cu privire la ceea ce ati lucrat, gen lucrurile pe care le-ati invatat, lessons learned, un rezumat asupra a ceea ce ati facut si orice alta informatie care vi se pare relevanta pentru o concluzie finala asupra a ceea ce ati lucrat**
+Following the process of creating, testing, and manipulating the database for the Booking application, I have gained valuable knowledge and lessons that are essential for the effective development and management of a relational database. Here is a summary and the lessons learned from this activity:
+<ul>
+  
+**<li>Designing and Creating the Database**</li>
+
+**<li>Populating and Manipulating Data**</li>
+
+**<li>Updating Structure and Data**</li>
+
+**<li>Advanced Queries and Joins**</li>
+
+**<li>Data Cleanup**</li>
+</ul>
+
+This activity provided a practical opportunity to work with a SQL database for a real application, thereby consolidating both theoretical and practical knowledge in database management. A methodical approach to each aspect of the process, from design to data manipulation and query optimization, contributed to the development of an efficient and functional database, ready to support the needs of a Booking application.
 
 </ol>
