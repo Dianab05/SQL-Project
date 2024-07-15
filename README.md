@@ -141,6 +141,7 @@ In order to simulate various scenarios that might happen in real life I created 
 **<li>WHERE** clause </li>
   
 ![where](https://github.com/Dianab05/SQL-Project/assets/166596469/56faea5b-81b1-4517-ac01-dc4efe343e25)
+
 ![where2](https://github.com/Dianab05/SQL-Project/assets/166596469/7dde252d-a59d-48b2-afe1-6b87e8b8bf7c)
 
 **<li>WHERE** with **AND** </li>
@@ -163,7 +164,35 @@ In order to simulate various scenarios that might happen in real life I created 
 
 ![regexp](https://github.com/Dianab05/SQL-Project/assets/166596469/247b08f7-cca8-48dd-ad3e-a839b6984bb0)
 
-**<li>INNER JOIN** </li>
+**<li>ORDER BY** </li>
+
+![order by1](https://github.com/Dianab05/SQL-Project/assets/166596469/956c025a-36eb-4457-9f5a-f6f50b2c4134)
+
+![orderby2](https://github.com/Dianab05/SQL-Project/assets/166596469/5ea99960-36d8-4809-8a30-35f26140afee)
+
+![orderby3](https://github.com/Dianab05/SQL-Project/assets/166596469/e23eb74b-e779-4bb4-992f-31b99177e983)
+
+**<li>GROUP BY** </li>
+
+![grouoby1](https://github.com/Dianab05/SQL-Project/assets/166596469/84a54e1b-d3f8-4eda-b623-2a4580a647a8)
+
+![groupby2](https://github.com/Dianab05/SQL-Project/assets/166596469/118b7fd8-af23-4aa9-a08f-63ff7c9e7aee)
+
+![groupby3](https://github.com/Dianab05/SQL-Project/assets/166596469/edc544d5-545e-4f5e-adb2-371bc689aad2)
+
+**<li>AGGREGATE FUNCTIONS** </li>
+
+![AGGREGATE1](https://github.com/Dianab05/SQL-Project/assets/166596469/0e4e7cd1-238d-4df3-9ee7-1fe0bf3967a5)
+
+![AGGREGATE2](https://github.com/Dianab05/SQL-Project/assets/166596469/0379fc9c-c9d8-4752-a75f-8ea21c52ef9f)
+
+![AGGREGATE3](https://github.com/Dianab05/SQL-Project/assets/166596469/cb4c721f-bc5b-4a7e-ae66-95788d178f2d)
+
+![AGGREGATE4](https://github.com/Dianab05/SQL-Project/assets/166596469/eab17571-2c04-44ab-b877-79cf3865f529)
+
+![AGGREGATE5](https://github.com/Dianab05/SQL-Project/assets/166596469/343013ef-ad15-42d7-84fb-27f81a7c7824)
+
+**<li>JOINS** </li>
 
 
   
