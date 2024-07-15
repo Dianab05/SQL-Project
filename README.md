@@ -194,8 +194,20 @@ In order to simulate various scenarios that might happen in real life I created 
 
 **<li>JOINS** </li>
 
+![JOIN1](https://github.com/user-attachments/assets/d8d60446-aa35-45ac-bae5-cf732a2da796)
 
-  
+![JOIN2](https://github.com/user-attachments/assets/2c02e449-9e9b-4e5f-ad47-2bcf7361a220)
+
+![JOIN3](https://github.com/user-attachments/assets/6718e199-2e1e-453f-b059-831401736b1b)
+
+![JOIN4](https://github.com/user-attachments/assets/10611049-08d6-4a4b-9593-94487c824450)
+
+![JOIN5](https://github.com/user-attachments/assets/de36559e-8c9f-4591-9026-1ea434d825b5)
+
+![JOIN6](https://github.com/user-attachments/assets/134ec367-c816-4bda-9723-78abd92cfe09)
+
+![JOIN7](https://github.com/user-attachments/assets/28663afe-0f8d-4deb-998d-0db88032960f)
+ 
 </ul>
 
 
